@@ -7,5 +7,5 @@ const server = createServer(app);
 const port = serverConfig.port;
 
 server.listen(port, () => {
-  logInfo('listen at http://localhost:3000');
+  logInfo(`listen at http://localhost:${port}`);
 });
